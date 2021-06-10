@@ -1,8 +1,8 @@
-GET http://localhost:3000/todos/?status=lakshman
+GET http://localhost:3000/todos/?search_q=Buy
 ###
-GET http://localhost:3000/todos/1
+GET http://localhost:3000/todos/3
 ###
-GET http://localhost:3000/agenda/?date=2021-02-22
+GET http://localhost:3000/agenda/?date=2021-2-22
 
 ###
 POST http://localhost:3000/todos/
@@ -18,13 +18,13 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:3000/todos/:todoId/
+PUT http://localhost:3000/todos/1/
 Content-Type: application/json
 
 {
-  "dueDate": "2021-01-12"
+  "dueDate":"2021-02-40"
 }
 
 ###
 
-DELETE http://localhost:3000/todos/1/
+DELETE http://localhost:3000/todos/6/

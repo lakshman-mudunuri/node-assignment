@@ -1,6 +1,8 @@
 dependencies:
   date-fns: 2.19.0
+  date-is-invalid: 1.0.12
   express: 4.17.1
+  is-valid-date-object: 1.0.1
   nodemon: 2.0.7
   sqlite: 4.0.19
   sqlite3: 5.0.2
@@ -374,6 +376,10 @@ packages:
       node: '>=0.11'
     resolution:
       integrity: sha512-X3bf2iTPgCAQp9wvjOQytnf5vO5rESYRXlPIVcgSbtT5OTScPcsf9eZU+B/YIkKAtYr5WeCii58BgATrNitlWg==
+  /date-is-invalid/1.0.12:
+    dev: false
+    resolution:
+      integrity: sha512-MOD1hIj6ETlwEc2aFDKjS2sDYzvgmeCWaG1nafDel2b4ECq+VFIQWOKWl/YjN8jUtb0Ti/xVBqf6i47OhThRNQ==
   /debug/2.6.9:
     dependencies:
       ms: 2.0.0
@@ -942,6 +948,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+  /is-valid-date-object/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-+mXgEBXrBOIhqmpOUJ0GLZH34Kw=
   /is-yarn-global/0.3.0:
     dev: false
     resolution:
@@ -1958,7 +1968,9 @@ packages:
       integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
 specifiers:
   date-fns: 2.19.0
+  date-is-invalid: ^1.0.12
   express: 4.17.1
+  is-valid-date-object: ^1.0.1
   nodemon: 2.0.7
   sqlite: 4.0.19
   sqlite3: 5.0.2
